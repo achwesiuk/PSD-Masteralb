@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%; //10px
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.header {
+    max-width: 100%;
+    margin: 3rem auto;
+}
+
+
+

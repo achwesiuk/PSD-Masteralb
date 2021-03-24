@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%; //10px
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 95rem;
+    margin: 5.5rem auto;
+    font-family: 'Titillium Web', sans-serif;
+    background: url(../img/bg.jpg) no-repeat fixed center;
+    background-size: cover;
+    min-height: 125rem;
+}
+
+.header {
+    margin-bottom: 2rem;
+
+     &__logo {
+         display: block;
+         margin: 0 auto;
+         opacity: .4;
+     }
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+}
+
+.form {
+    display: inline-block;
+}

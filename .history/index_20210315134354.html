@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masteralb Creative</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src="img/logo_1.png" alt="Logo 1" class="header__logo">
+    </header>
+    <main class="main">
+        
+        <div class="container">
+            <h3 class="container__header">Register Form</h3>
+            <form class="form">
+                <div class="form__group">
+                    <label for="name-1" class="form__desc">
+                        <img src="img/username.png" alt="Username" class="form__img">
+                    </label>
+                    <span class="form__line"></span>
+                    <input type="text" id="name-1" placeholder="Username" class="form__input" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="password-1" class="form__desc">
+                        <img src="img/password.png" alt="Password" class="form__img">
+                    </label>
+                    <span class="form__line"></span>
+                    <input type="password" id="password-1" placeholder="Password" class="form__input" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="confirm" class="form__desc">
+                        <img src="img/password.png" alt="Password" class="form__img">
+                    </label>
+                    <span class="form__line"></span>
+                    <input type="text" id="confirm" placeholder="Confirm Password" class="form__input" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="message-1" class="form__desc">
+                        <img src="img/email.png" alt="Email" class="form__img">
+                    </label>
+                    <span class="form__line"></span>
+                    <input type="email" id="message-1" placeholder="Email" class="form__input" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="location" class="form__desc">
+                        <img src="img/icon_maps.png" alt="Location" class="form__img">
+                    </label>
+                    <span class="form__line"></span>
+                    <select name="city" id="location" class="form__location">
+                        <option value="location" disabled selected>Your location</option>
+                        <option value="warsaw">Warsaw</option>
+                        <option value="london">London</option>
+                        <option value="berlin">Berlin</option>
+                        <option value="madrid">Madrid</option>
+                    </select>
+                </div>
+
+                <input type="checkbox" name="terms" class="form__tick" checked>
+                <label class="form__desc">I have read and accept the terms of use</label>
+
+                <input type="submit" value="Sign up" class="form__btn form__btn--big">
+            </form>
+        </div>
+
+        <div class="container">
+            <h2 class="container__header">Send Email</h2>
+            <form class="form">
+                <div class="form__group">
+                    <label for="name-2" class="form__desc">
+                         <img src="img/username.png" alt="Username" class="form__img">
+                    </label>
+                    <span class="form__line"></span>
+                    <input type="text" id="name-2" placeholder="Your Name" class="form__input" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="message-2" class="form__desc">
+                        <img src="img/email.png" alt="Email" class="form__img">
+                    </label>
+                    <span class="form__line"></span>
+                    <input type="email" id="message-2" placeholder="Your Email" class="form__input" required>
+                </div>
+
+                <div class="form__group">
+                    <textarea name="message" placeholder="Type your message" class="form__message"></textarea>
+                </div>
+
+                <input type="checkbox" name="terms" class="form__tick" checked>
+                <label class="form__desc">Send a copy to my Email</label>
+
+                <input type="submit" value="Send Email" class="form__btn form__btn--big">
+
+            </form>
+        </div>
+
+        <div class="container">
+            <h2 class="container__header">Sign In Form</h2>
+            <form class="form">
+                <div class="form__group">
+                    <label for="name-3" class="form__desc">
+                        <img src="img/username.png" alt="Username" class="form__img">
+                    </label>
+                    <span class="form__line"></span>
+                    <input type="text" id="name-3" placeholder="Username" class="form__input" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="password-2" class="form__desc">
+                        <img src="img/password.png" alt="Password" class="form__img">
+                    </label>
+                    <span class="form__line"></span>
+                    <input type="password" id="password-2" placeholder="Password" class="form__input" required>
+                </div>
+
+                <input type="checkbox" name="terms" class="form__tick" checked>
+                <label class="form__desc">Remember me</label>
+
+                <input type="submit" value="Sign in" class="form__btn form__btn--big">
+            </form>
+        </div>
+
+        <div class="container">
+            <h2 class="container__header">Recover Form</h2>
+            <form class="form">
+                <div class="form__group">
+                    <label for="email-3" class="form__desc">
+                        <img src="img/email.png" alt="Email" class="form__img">
+                    </label>
+                    <span class="form__line"></span>
+                    <input type="email" id="email-3" placeholder="Enter your Email" class="form__input" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="number" class="form__desc">
+                        <img src="img/phone.png" alt="Phone Number" class="form__img">
+                    </label>
+                    <span class="form__line"></span>
+                    <input type="text" id="number" placeholder="Enter your Phone number" class="form__input" required>
+                </div>
+
+                <input type="submit" value="Send" class="form__btn form__btn--small">
+                <input type="submit" value="Done" class="form__btn form__btn--small">
+            </form>
+        </div>
+
+        <div class="container">
+            <h2 class="container__header">Subscribe Form</h2>
+            <form class="form">
+                <div class="form__group">
+                    <label for="email-4" class="form__desc">
+                        <img src="img/email.png" alt="Email" class="form__img">
+                    </label>
+                    <span class="form__line"></span>
+                    <input type="email" id="email-4" placeholder="Enter your Email" class="form__input" required>
+                </div>
+
+                <input type="submit" value="Subscribe" class="form__btn form__btn--small">
+                <input type="submit" value="No, thanks" class="form__btn form__btn--small">
+            </form>
+        </div>
+
+        <div class="container">
+            <div class="logo-down">
+                <img src="img/logo_2.png" alt="Logo" class="logo-down__img">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
